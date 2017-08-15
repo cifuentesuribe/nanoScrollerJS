@@ -4,8 +4,8 @@ module.exports = (grunt) ->
 
     dirs:
       coffeeDir: 'coffeescripts'
-      jsDir: 'bin/javascripts'
-      cssDir: 'bin/css'
+      jsDir: 'dist/javascripts'
+      cssDir: 'dist/css'
       testDir: 'tests'
 
     pkg: grunt.file.readJSON('nanoscroller.jquery.json')
@@ -72,7 +72,7 @@ module.exports = (grunt) ->
         version: '<%= pkg.version %>'
         url: '<%= pkg.homepage %>'
         options:
-          paths: 'bin/javascripts'
+          paths: '<%= dirs.jsDir %>',
           outdir: 'docs/'
 
     csslint:
