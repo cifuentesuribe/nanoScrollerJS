@@ -44,7 +44,11 @@
   "style": "dist/css/nanoscroller.css",
   "files": [
     "dist/css/nanoscroller.css",
-    "dist/javascripts/jquery.nanoscroller.js"
+    "dist/javascripts/jquery.nanoscroller.js",
+    "dist/javascripts/jquery.nanoscroller.js.map",
+    "dist/javascripts/jquery.nanoscroller.min.js",
+    "dist/javascripts/jquery.nanoscroller.min.js.map",
+    "dist/javascripts/jquery.nanoscroller.min.map"
   ],
   "repository": {
     "type": "git",
